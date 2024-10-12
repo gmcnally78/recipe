@@ -47,3 +47,182 @@ table {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* END OF CSS RESET */
+
+/* ROOT VARIABLES */
+:root {
+    --color-black: #0D0D0D;
+    --color-white: #F2F2F2;
+    --color-teal: #7ABFBF;
+    --color-teal-translucent: rgba(122, 191, 191, 0.5);
+    --color-orange: #EB5428;
+
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Bebas Neue', cursive; 
+}
+
+
+
+
+body {
+    font-family: var(--font-primary) var(--font-secondary);
+    background-color: var(--color-teal);
+}
+
+
+h1 {
+    font-family: var(--font-secondary);
+    font-size: 4rem;
+    text-align: center;
+    margin: 4vh auto;
+}
+
+/* header begin */
+.header {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1; 
+    align-items: center;
+    height: 44px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+ }
+
+main {
+    background-color: var(--color-white);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0;
+    padding-top: 0;
+}
+ 
+.left {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    height: 100%;
+}
+.right {
+    background-color: white;
+    grid-template-columns: 3 / 4;
+    grid-template-rows: 1 / 1;
+    justify-content: center;
+    height: 100%;
+}
+
+.center {
+    background-color: var(--color-orange);
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-container, .avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+/* header end */
+
+/* Find a recipe input and search icon */
+.recipe-intro {
+    position: relative;
+    padding: 20px;
+    margin: 3vh 7vw 3vh;
+}
+
+.search-container {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid var(--color-orange);
+    border-radius: 4px 0 0 4px;
+    height: 36px;
+    margin-top: 50px;
+}
+
+.svg-container {
+    background-color: var(--color-orange);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid var(--color-orange);
+    border-radius: 0 4px 4px 0;
+    margin-top: 50px;
+}
+
+.icon {
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+}
+/* end of recipe search icon */
+
+.recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+    padding: 20px;
+}
+
+
+.recipe-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.recipe-container svg {
+    width: 40px; /* Adjust size if needed */
+    height: 40px;
+}
+
+.recipe-container p {
+    color: #EB5428;
+    font-size: 16px;
+}
+
+img {
+    display: block; /* Make sure the image is treated as a block element */
+    margin: 20px auto; /* Center the image and add space around it */
+}
+
+p {
+    text-align: center; /* Center the paragraph text */
+    max-width: 600px; /* Optional: limit width for better readability */
+    margin: 10px auto; /* Center paragraphs with margin */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
