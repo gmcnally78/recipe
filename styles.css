@@ -66,7 +66,7 @@ table {
 
 body {
     font-family: var(--font-primary) var(--font-secondary);
-    background-color: var(--color-teal);
+    background-color: var(--color-teal-translucent);
 }
 
 
@@ -268,7 +268,7 @@ p {
 }
 ol {
     list-style-type: decimal; 
-    margin: 0px 10px 0px 30px;
+    margin: 0px 20px 0px 30px;
     padding-left: 20px;
      
 }
@@ -276,7 +276,9 @@ ol li {
     line-height: 1.5em;
 }
 
-
+.side-dishes {
+    background-color: var(--color-teal);
+}
 
 
 
