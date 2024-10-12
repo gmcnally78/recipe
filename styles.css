@@ -279,6 +279,26 @@ ol li {
 .side-dishes {
     background-color: var(--color-teal);
 }
+.side-dishes li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.side-dishes li::before {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="%23ffffff" fill="%23EB5428" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/></svg>') repeat-x;
+    background-size: 20px;
+    margin-bottom: 5px;
+    background-position: 0 0;
+}
+
+
+
+
+
 
 
 
