@@ -145,15 +145,15 @@ footer {
 
 /* Find a recipe input and search icon */
 .recipe-intro {
-    position: relative;
-    padding: 20px;
-    margin: 3vh 7vw 3vh;
+    position: relative;  
 }
 
 .search-container {
     display: flex;
     align-items: stretch;
     margin-bottom: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .search-input {
