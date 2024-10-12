@@ -91,18 +91,23 @@ h1 {
 }
 
 header {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 0;
     padding-bottom: 0;
  }
 
 main {
     background-color: var(--color-white);
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0;
     padding-top: 0;
+}
+footer {
+    background-color: var(--color-white);
+    margin-left: 5%;
+    margin-right: 5%;
 }
  
 .left {
@@ -152,6 +157,7 @@ main {
 }
 
 .search-input {
+    position: relative;
     flex: 1;
     padding: 8px;
     border: 2px solid var(--color-orange);
@@ -161,6 +167,7 @@ main {
 }
 
 .svg-container {
+    position: relative;
     background-color: var(--color-orange);
     height: 36px;
     display: flex;
@@ -214,7 +221,9 @@ p {
     margin: 10px auto; 
 }
 
-
+.save, .share, .print, .jump {
+    position: relative;
+}
 
 
 
